@@ -1,8 +1,9 @@
-import React from 'react';
-import Home from './pages/Home';
+// src/App.js
+import AppRouter from './Routes/AppRouter';
+
 
 function App() {
-  return <Home />;
+  return <AppRouter />;
 }
 
 export default App;
