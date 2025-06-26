@@ -1,15 +1,16 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import Registro from '../pages/Registro';
 import Quiz from '../pages/Quiz';
 import Inventory from '../pages/Inventory';
-import Navbar from '../Components/Navbar'; // ✅ NUEVO
+import Navbar from '../Components/Navbar';
 
 export default function AppRouter() {
   return (
     <Router>
-      <Navbar /> {/* ✅ NUEVO */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />

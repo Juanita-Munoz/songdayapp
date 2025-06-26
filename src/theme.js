@@ -1,18 +1,10 @@
+// Si usas MUI v5 o similar
 import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
-    primary: {
-      main: '#6750A4',
-    },
-    secondary: {
-      main: '#625B71',
-    },
-    background: {
-      default: '#FFFBFE',
-      paper: '#FFFFFF',
-    },
+    primary: { main: '#5e7e48' },
+    secondary: { main: '#abc19c' },
   },
 });
 
